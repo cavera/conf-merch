@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  mvp.css:
-    specifier: ^1.13.0
-    version: 1.13.0
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -3998,10 +3995,6 @@ packages:
       dns-packet: 5.6.0
       thunky: 1.1.0
     dev: true
-
-  /mvp.css@1.13.0:
-    resolution: {integrity: sha512-fTbyDKROJ/EGL7Zy3yG9oVgCnzDFaOQUkSeStkMehhb51Xb6HsowyTgUltsWV/cLopRqhkzdgjrojk5A+c9/pQ==}
-    dev: false
 
   /nanoid@3.3.6:
     resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
