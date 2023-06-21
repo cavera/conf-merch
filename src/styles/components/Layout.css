@@ -3,9 +3,11 @@
 body {
 	margin: 0;
 	padding: 0;
-	color: #e3faf3;
+	color: #3d3f3e;
+	/* color: #e3faf3; */
 	font-family: 'Open Sans', sans-serif;
-	background-color: #1d2722;
+	/* background-color: #1d2722; */
+	background-color: #f5fffa;
 }
 
 .Main {
