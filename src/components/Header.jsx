@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/components/Header.css';
+import { FaShoppingCart } from 'react-icons/fa';
 
 const Header = () => {
 	return (
@@ -12,7 +13,7 @@ const Header = () => {
 				<Link
 					to='/checkout'
 					className='Header-link'>
-					Checkout
+					<FaShoppingCart />
 				</Link>
 			</div>
 		</header>

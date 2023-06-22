@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/components/Checkout.css';
 import { Link } from 'react-router-dom';
+import { FaTrash } from 'react-icons/fa';
 
 const Checkout = () => {
 	return (
@@ -13,7 +14,9 @@ const Checkout = () => {
 						<h4>ITEM name</h4>
 						<span>$ 10</span>
 					</div>
-					<button type='button'>Eliminar</button>
+					<button type='button'>
+						<FaTrash />
+					</button>
 				</div>
 			</div>
 
