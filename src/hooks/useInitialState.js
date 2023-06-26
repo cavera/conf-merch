@@ -12,11 +12,18 @@ const useInitialState = () => {
 	const removeFromCart = payload => {
 		setState({
 			...state,
-			cart: state.cart.filter(items => items.id !== payload.id),
+			cart: state.cart.filter(items => items.cartId !== payload.cartId),
 		})
 	}
 
-	return { addToCart, removeFromCart, state }
+	const addToBuyer = payload => {
+		setState({
+			...state,
+			buyer: [...state.buyer, payload],
+		})
+	}
+
+	return { addToCart, removeFromCart, state, addToBuyer }
 }
 
 export default useInitialState
